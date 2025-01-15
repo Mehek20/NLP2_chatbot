@@ -1,0 +1,56 @@
+version: "3.1"
+
+stories:
+  # Story for greeting the user with OpenAI response
+  - story: Greet the user and generate response with OpenAI
+    steps:
+      - intent: greet
+      - action: action_openai_response
+
+  # Story for mood great response
+  - story: Respond to mood great
+    steps:
+      - intent: mood_great
+      - action: action_openai_response
+
+  # Story for mood unhappy response
+  - story: Respond to mood unhappy
+    steps:
+      - intent: mood_unhappy
+      - action: action_openai_response
+
+  # Story for goodbye response
+  - story: Goodbye response
+    steps:
+      - intent: goodbye
+      - action: action_openai_response
+
+  # Story for affirmation response
+  - story: Affirmation response
+    steps:
+      - intent: affirm
+      - action: action_openai_response
+
+  # Story for denial response
+  - story: Denial response
+    steps:
+      - intent: deny
+      - action: action_openai_response
+
+  # Story for angry response
+  - story: Angry response
+    steps:
+      - intent: angry
+      - action: action_openai_response
+
+  # Story for surprise response
+  - story: Surprise response
+    steps:
+      - intent: surprise
+      - action: action_openai_response
+
+  # Story for fear response
+  - story: Fear response
+    steps:
+      - intent: fear
+      - action: action_openai_response
